@@ -1,0 +1,10 @@
+<template>
+  <div id="waiting" if:false={ready}>Loading.....
+    <p>Abi load ho raha hai data</p>
+  </div>
+  <div id="display" if:true={ready}>
+    <div>Name:{name}</div>
+    <div>Price:{price}</div>
+    <p>Yeh Load hone ke baad ka data hai</p>
+  </div> 
+</template>
